@@ -12,11 +12,11 @@
   "algorithm-type-name": "BasicTemplateFrameworkAlgorithm",
 
   // Algorithm language selector - options CSharp, FSharp, VisualBasic, Python, Java
-  "algorithm-language": "CSharp",
+  "algorithm-language": "Python",
 
   //Physical DLL location
-  "algorithm-location": "QuantConnect.Algorithm.CSharp.dll",
-  //"algorithm-location": "../../../Algorithm.Python/BasicTemplateFrameworkAlgorithm.py",
+  //"algorithm-location": "QuantConnect.Algorithm.CSharp.dll",
+  "algorithm-location": "../../../Algorithm.Python/BasicTemplateFrameworkAlgorithm.py",
   //"algorithm-location": "QuantConnect.Algorithm.FSharp.dll",
   //"algorithm-location": "QuantConnect.Algorithm.VisualBasic.dll",
   //"algorithm-location": "QuantConnect.Algorithm.Java.dll",
@@ -57,11 +57,11 @@
   "force-exchange-always-open": false,
 
   // save list of transactions to the specified csv file
-  "transaction-log": "",
+  "transaction-log": "C:\\Users\\Oliver\\Desktop\\lean_backtest_logs.csv",
 
   // To get your api access token go to quantconnect.com/account
-  "job-user-id": "0",
-  "api-access-token": "",
+  "job-user-id": "117289",
+  "api-access-token": "33bffdd213008b84910cf969d192fbac9bd87be6c1895aad493e11fbc6e21f65",
 
   // live data configuration
   "live-data-url": "ws://www.quantconnect.com/api/v2/live/data/",
@@ -115,7 +115,7 @@
   "bitfinex-api-secret": "",
   "bitfinex-api-key": "",
 
-    // binance configuration
+  // binance configuration
   "binance-api-secret": "",
   "binance-api-key": "",
 

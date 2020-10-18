@@ -1,0 +1,472 @@
+2020-10-16T08:35:01.0380810Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2020-10-16T08:35:01.0424710Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2020-10-16T08:35:01.0427130Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: /Data
+2020-10-16T08:35:01.0433160Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.4.0.0 Mode: DEBUG (64bit)
+2020-10-16T08:35:01.0461200Z TRACE:: Engine.Main(): Started 8:35 AM
+2020-10-16T08:35:01.0552970Z TRACE:: Config.GetValue(): job-project-id - Using default value: 0
+2020-10-16T08:35:01.0749890Z TRACE:: Config.GetValue(): regression-update-statistics - Using default value: False
+2020-10-16T08:35:01.0761330Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2020-10-16T08:35:01.0801520Z TRACE:: Config.Get(): Configuration key not found. Key: cloud-api-url - Using default value: https://www.quantconnect.com/api/v2/
+2020-10-16T08:35:01.5204120Z TRACE:: JobQueue.NextJob(): Selected ../../../Algorithm.Python/BasicTemplateFrameworkAlgorithm.py
+2020-10-16T08:35:01.5332950Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2020-10-16T08:35:01.5339780Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2020-10-16T08:35:01.5342810Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2020-10-16T08:35:01.5393750Z TRACE:: Config.Get(): Configuration key not found. Key: algorithm-id - Using default value: BasicTemplateFrameworkAlgorithm
+2020-10-16T08:35:01.5403100Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2020-10-16T08:35:01.5405790Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2020-10-16T08:35:01.5409200Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2020-10-16T08:35:01.5462450Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2020-10-16T08:35:01.5681830Z TRACE:: Config.Get(): Configuration key not found. Key: object-store-root - Using default value: ./storage
+2020-10-16T08:35:01.5759130Z TRACE:: Config.GetValue(): ignore-version-checks - Using default value: False
+2020-10-16T08:35:01.5772650Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2020-10-16T08:35:01.5791160Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2020-10-16T08:35:02.0077920Z TRACE:: PythonInitializer.Initialize(): start...
+2020-10-16T08:35:03.7519440Z TRACE:: PythonInitializer.Initialize(): ended
+2020-10-16T08:35:03.7575730Z TRACE:: AlgorithmPythonWrapper(): Python version 3.6.8 |Anaconda, Inc.| (default, Dec 30 2018, 01:25:33) 
+[GCC 7.3.0]: Importing python module BasicTemplateFrameworkAlgorithm
+2020-10-16T08:35:04.9803490Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2020-10-16T08:35:06.3119500Z TRACE:: Config.GetValue(): mute-python-library-logging - Using default value: True
+2020-10-16T08:35:06.3279150Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Lean/Launcher/bin/Debug/storage/QCAlgorithm
+2020-10-16T08:35:06.3412180Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2020-10-16T08:35:06.4902320Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Symbol      Quantity    Conversion = Value in USD
+USD: $      100000.00 @       1.00 = $100000.0
+-------------------------------------------------
+CashBook Total Value:                $100000.0
+
+2020-10-16T08:35:06.4933270Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2020-10-16T08:35:06.4948470Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2020-10-16T08:35:06.4964430Z TRACE:: JOB HANDLERS: 
+2020-10-16T08:35:06.4967250Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2020-10-16T08:35:06.4969390Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2020-10-16T08:35:06.4972140Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2020-10-16T08:35:06.4974400Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2020-10-16T08:35:06.4976870Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2020-10-16T08:35:06.4979360Z TRACE::          Alpha:        QuantConnect.Lean.Engine.Alphas.DefaultAlphaHandler
+2020-10-16T08:35:06.4981810Z TRACE::          ObjectStore:  QuantConnect.Lean.Engine.Storage.LocalObjectStore
+2020-10-16T08:35:06.4984140Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2020-10-16T08:35:06.5216450Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 10/7/2013 12:00:00 AM Stop: 10/11/2013 11:59:59 PM
+2020-10-16T08:35:06.5325540Z TRACE:: Debug: Launching analysis for BasicTemplateFrameworkAlgorithm with LEAN Engine v2.4.0.0
+2020-10-16T08:35:06.5662050Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 12
+2020-10-16T08:35:06.5664710Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2020-10-16T08:35:06.5667470Z TRACE:: Config.Get(): Configuration key not found. Key: data-feed-queue-type - Using default value: QuantConnect.Lean.Engine.DataFeeds.WorkScheduling.WorkQueue, QuantConnect.Lean.Engine
+2020-10-16T08:35:06.5673330Z TRACE:: WeightedWorkScheduler(): will use 12 workers and MaxWorkWeight is 400. Queue type: WorkQueue
+2020-10-16T08:35:06.6024180Z TRACE:: Config.GetValue(): show-missing-data-logs - Using default value: False
+2020-10-16T08:35:06.6916550Z TRACE:: UniverseSelection.AddPendingInternalDataFeeds(): Adding internal benchmark data feed SPY,SPY,Hour,TradeBar,Trade,Adjusted,Internal
+2020-10-16T08:35:06.8834850Z TRACE:: Debug: numpy test >>> print numpy.pi: 3.141592653589793
+2020-10-16T08:35:06.9840150Z TRACE:: Debug: Purchased Stock: SPY
+2020-10-16T08:35:07.0388620Z TRACE:: Synchronizer.GetEnumerator(): Exited thread.
+2020-10-16T08:35:07.0393070Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2020-10-16T08:35:07.0411000Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2020-10-16T08:35:07.1148200Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2020-10-16T08:35:07.1209640Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2020-10-16T08:35:07.1213810Z TRACE:: DefaultAlphaHandler.Exit(): Exiting...
+2020-10-16T08:35:07.1346010Z TRACE:: Debug: Algorithm Id:(BasicTemplateFrameworkAlgorithm) completed in 0.61 seconds at 6k data points per second. Processing total of 3,943 data points.
+2020-10-16T08:35:07.1589970Z TRACE:: DefaultAlphaHandler.Exit(): Ended
+2020-10-16T08:35:07.1594130Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2020-10-16T08:35:07.1598020Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2020-10-16T08:35:07.1639050Z TRACE:: StopSafely(): waiting for 'Result Thread' thread to stop...
+2020-10-16T08:35:07.1851200Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/BasicTemplateFrameworkAlgorithm-log.txt
+2020-10-16T08:35:07.1854270Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2020-10-16T08:35:07.3047390Z TRACE:: 
+STATISTICS:: Total Trades 3
+STATISTICS:: Average Win 0%
+STATISTICS:: Average Loss -1.01%
+STATISTICS:: Compounding Annual Return 254.782%
+STATISTICS:: Drawdown 2.200%
+STATISTICS:: Expectancy -1
+STATISTICS:: Net Profit 1.632%
+STATISTICS:: Sharpe Ratio 8.371
+STATISTICS:: Probabilistic Sharpe Ratio 66.555%
+STATISTICS:: Loss Rate 100%
+STATISTICS:: Win Rate 0%
+STATISTICS:: Profit-Loss Ratio 0
+STATISTICS:: Alpha -0.088
+STATISTICS:: Beta 1.006
+STATISTICS:: Annual Standard Deviation 0.221
+STATISTICS:: Annual Variance 0.049
+STATISTICS:: Information Ratio -32.586
+STATISTICS:: Tracking Error 0.002
+STATISTICS:: Treynor Ratio 1.839
+STATISTICS:: Total Fees $9.77
+STATISTICS:: Fitness Score 0.747
+STATISTICS:: Kelly Criterion Estimate 38.64
+STATISTICS:: Kelly Criterion Probability Value 0.229
+STATISTICS:: Sortino Ratio 79228162514264337593543950335
+STATISTICS:: Return Over Maximum Drawdown 85.209
+STATISTICS:: Portfolio Turnover 0.747
+STATISTICS:: Total Insights Generated 100
+STATISTICS:: Total Insights Closed 99
+STATISTICS:: Total Insights Analysis Completed 99
+STATISTICS:: Long Insight Count 100
+STATISTICS:: Short Insight Count 0
+STATISTICS:: Long/Short Ratio 100%
+STATISTICS:: Estimated Monthly Alpha Value $126657.6305
+STATISTICS:: Total Accumulated Estimated Alpha Value $20405.9516
+STATISTICS:: Mean Population Estimated Insight Value $206.1207
+STATISTICS:: Mean Population Direction 54.5455%
+STATISTICS:: Mean Population Magnitude 54.5455%
+STATISTICS:: Rolling Averaged Population Direction 59.8056%
+STATISTICS:: Rolling Averaged Population Magnitude 59.8056%
+STATISTICS:: OrderListHash 951346025
+2020-10-16T08:35:07.3050250Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2020-10-16T08:35:07.3061790Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2020-10-16T08:35:07.3077340Z TRACE:: Engine.Run(): Disposing of setup handler...
+2020-10-16T08:35:07.3082240Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2020-10-16T08:35:07.3091450Z TRACE:: Engine.Main(): Packet removed from queue: BasicTemplateFrameworkAlgorithm
+2020-10-16T08:35:07.3098180Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2020-10-16T08:35:07.3106800Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.
+2020-10-16T08:40:51.8321440Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2020-10-16T08:40:51.8327330Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2020-10-16T08:40:51.8329610Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: /Data
+2020-10-16T08:40:51.8332300Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.4.0.0 Mode: DEBUG (64bit)
+2020-10-16T08:40:51.8341100Z TRACE:: Engine.Main(): Started 8:40 AM
+2020-10-16T08:40:51.8370200Z TRACE:: Config.GetValue(): job-project-id - Using default value: 0
+2020-10-16T08:40:51.8421630Z TRACE:: Config.GetValue(): regression-update-statistics - Using default value: False
+2020-10-16T08:40:51.8429590Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2020-10-16T08:40:51.8455960Z TRACE:: Config.Get(): Configuration key not found. Key: cloud-api-url - Using default value: https://www.quantconnect.com/api/v2/
+2020-10-16T08:40:52.2557100Z TRACE:: JobQueue.NextJob(): Selected ../../../Algorithm.Python/BasicTemplateFrameworkAlgorithm.py
+2020-10-16T08:40:52.2669690Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2020-10-16T08:40:52.2674970Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2020-10-16T08:40:52.2679670Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2020-10-16T08:40:52.2733250Z TRACE:: Config.Get(): Configuration key not found. Key: algorithm-id - Using default value: BasicTemplateFrameworkAlgorithm
+2020-10-16T08:40:52.2744650Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2020-10-16T08:40:52.2747050Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2020-10-16T08:40:52.2749460Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2020-10-16T08:40:52.2805600Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2020-10-16T08:40:52.3083990Z TRACE:: Config.Get(): Configuration key not found. Key: object-store-root - Using default value: ./storage
+2020-10-16T08:40:52.3108200Z TRACE:: Config.GetValue(): ignore-version-checks - Using default value: False
+2020-10-16T08:40:52.3121790Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2020-10-16T08:40:52.3140570Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2020-10-16T08:40:52.7550860Z TRACE:: PythonInitializer.Initialize(): start...
+2020-10-16T08:40:54.4895560Z TRACE:: PythonInitializer.Initialize(): ended
+2020-10-16T08:40:54.4949170Z TRACE:: AlgorithmPythonWrapper(): Python version 3.6.8 |Anaconda, Inc.| (default, Dec 30 2018, 01:25:33) 
+[GCC 7.3.0]: Importing python module BasicTemplateFrameworkAlgorithm
+2020-10-16T08:40:55.6939590Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2020-10-16T08:40:57.0666630Z TRACE:: Config.GetValue(): mute-python-library-logging - Using default value: True
+2020-10-16T08:40:57.1255490Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Lean/Launcher/bin/Debug/storage/QCAlgorithm
+2020-10-16T08:40:57.1393340Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2020-10-16T08:40:57.2824490Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Symbol      Quantity    Conversion = Value in USD
+USD: $      100000.00 @       1.00 = $100000.0
+-------------------------------------------------
+CashBook Total Value:                $100000.0
+
+2020-10-16T08:40:57.2853060Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2020-10-16T08:40:57.2868910Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2020-10-16T08:40:57.2887650Z TRACE:: JOB HANDLERS: 
+2020-10-16T08:40:57.2890490Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2020-10-16T08:40:57.2892950Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2020-10-16T08:40:57.2895160Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2020-10-16T08:40:57.2897750Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2020-10-16T08:40:57.2899900Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2020-10-16T08:40:57.2902490Z TRACE::          Alpha:        QuantConnect.Lean.Engine.Alphas.DefaultAlphaHandler
+2020-10-16T08:40:57.2904890Z TRACE::          ObjectStore:  QuantConnect.Lean.Engine.Storage.LocalObjectStore
+2020-10-16T08:40:57.2907220Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2020-10-16T08:40:57.3120830Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 10/7/2013 12:00:00 AM Stop: 10/11/2013 11:59:59 PM
+2020-10-16T08:40:57.3261340Z TRACE:: Debug: Launching analysis for BasicTemplateFrameworkAlgorithm with LEAN Engine v2.4.0.0
+2020-10-16T08:40:57.3567680Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 12
+2020-10-16T08:40:57.3570450Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2020-10-16T08:40:57.3572620Z TRACE:: Config.Get(): Configuration key not found. Key: data-feed-queue-type - Using default value: QuantConnect.Lean.Engine.DataFeeds.WorkScheduling.WorkQueue, QuantConnect.Lean.Engine
+2020-10-16T08:40:57.3582330Z TRACE:: WeightedWorkScheduler(): will use 12 workers and MaxWorkWeight is 400. Queue type: WorkQueue
+2020-10-16T08:40:57.3925660Z TRACE:: Config.GetValue(): show-missing-data-logs - Using default value: False
+2020-10-16T08:40:57.4754090Z TRACE:: UniverseSelection.AddPendingInternalDataFeeds(): Adding internal benchmark data feed SPY,SPY,Hour,TradeBar,Trade,Adjusted,Internal
+2020-10-16T08:40:57.6771370Z TRACE:: Debug: numpy test >>> print numpy.pi: 3.141592653589793
+2020-10-16T08:40:57.7776290Z TRACE:: Debug: Purchased Stock: SPY
+2020-10-16T08:40:57.8367760Z TRACE:: Synchronizer.GetEnumerator(): Exited thread.
+2020-10-16T08:40:57.8372820Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2020-10-16T08:40:57.8390820Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2020-10-16T08:40:57.9064100Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2020-10-16T08:40:57.9111500Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2020-10-16T08:40:57.9116070Z TRACE:: DefaultAlphaHandler.Exit(): Exiting...
+2020-10-16T08:40:57.9281960Z TRACE:: Debug: Algorithm Id:(BasicTemplateFrameworkAlgorithm) completed in 0.61 seconds at 6k data points per second. Processing total of 3,943 data points.
+2020-10-16T08:40:57.9502840Z TRACE:: DefaultAlphaHandler.Exit(): Ended
+2020-10-16T08:40:57.9508000Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2020-10-16T08:40:57.9513920Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2020-10-16T08:40:57.9580880Z TRACE:: StopSafely(): waiting for 'Result Thread' thread to stop...
+2020-10-16T08:40:57.9786420Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/BasicTemplateFrameworkAlgorithm-log.txt
+2020-10-16T08:40:57.9789380Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2020-10-16T08:40:58.1181230Z TRACE:: 
+STATISTICS:: Total Trades 3
+STATISTICS:: Average Win 0%
+STATISTICS:: Average Loss -1.01%
+STATISTICS:: Compounding Annual Return 254.782%
+STATISTICS:: Drawdown 2.200%
+STATISTICS:: Expectancy -1
+STATISTICS:: Net Profit 1.632%
+STATISTICS:: Sharpe Ratio 8.371
+STATISTICS:: Probabilistic Sharpe Ratio 66.555%
+STATISTICS:: Loss Rate 100%
+STATISTICS:: Win Rate 0%
+STATISTICS:: Profit-Loss Ratio 0
+STATISTICS:: Alpha -0.088
+STATISTICS:: Beta 1.006
+STATISTICS:: Annual Standard Deviation 0.221
+STATISTICS:: Annual Variance 0.049
+STATISTICS:: Information Ratio -32.586
+STATISTICS:: Tracking Error 0.002
+STATISTICS:: Treynor Ratio 1.839
+STATISTICS:: Total Fees $9.77
+STATISTICS:: Fitness Score 0.747
+STATISTICS:: Kelly Criterion Estimate 38.64
+STATISTICS:: Kelly Criterion Probability Value 0.229
+STATISTICS:: Sortino Ratio 79228162514264337593543950335
+STATISTICS:: Return Over Maximum Drawdown 85.209
+STATISTICS:: Portfolio Turnover 0.747
+STATISTICS:: Total Insights Generated 100
+STATISTICS:: Total Insights Closed 99
+STATISTICS:: Total Insights Analysis Completed 99
+STATISTICS:: Long Insight Count 100
+STATISTICS:: Short Insight Count 0
+STATISTICS:: Long/Short Ratio 100%
+STATISTICS:: Estimated Monthly Alpha Value $126657.6305
+STATISTICS:: Total Accumulated Estimated Alpha Value $20405.9516
+STATISTICS:: Mean Population Estimated Insight Value $206.1207
+STATISTICS:: Mean Population Direction 54.5455%
+STATISTICS:: Mean Population Magnitude 54.5455%
+STATISTICS:: Rolling Averaged Population Direction 59.8056%
+STATISTICS:: Rolling Averaged Population Magnitude 59.8056%
+STATISTICS:: OrderListHash 951346025
+2020-10-16T08:40:58.1184140Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2020-10-16T08:40:58.1201690Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2020-10-16T08:40:58.1207450Z TRACE:: Engine.Run(): Disposing of setup handler...
+2020-10-16T08:40:58.1212020Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2020-10-16T08:40:58.1220350Z TRACE:: Engine.Main(): Packet removed from queue: BasicTemplateFrameworkAlgorithm
+2020-10-16T08:40:58.1226000Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2020-10-16T08:40:58.1236240Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.
+2020-10-16T08:49:52.2199350Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2020-10-16T08:49:52.2218320Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2020-10-16T08:49:52.2221080Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: /Data
+2020-10-16T08:49:52.2232440Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.4.0.0 Mode: DEBUG (64bit)
+2020-10-16T08:49:52.2251110Z TRACE:: Engine.Main(): Started 8:49 AM
+2020-10-16T08:49:52.2337200Z TRACE:: Config.GetValue(): job-project-id - Using default value: 0
+2020-10-16T08:49:52.2489500Z TRACE:: Config.GetValue(): regression-update-statistics - Using default value: False
+2020-10-16T08:49:52.2505200Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2020-10-16T08:49:52.2576140Z TRACE:: Config.Get(): Configuration key not found. Key: cloud-api-url - Using default value: https://www.quantconnect.com/api/v2/
+2020-10-16T08:49:52.6863930Z TRACE:: JobQueue.NextJob(): Selected ../../../Algorithm.Python/BasicTemplateFrameworkAlgorithm.py
+2020-10-16T08:49:52.6963120Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2020-10-16T08:49:52.6967330Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2020-10-16T08:49:52.6969760Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2020-10-16T08:49:52.7012240Z TRACE:: Config.Get(): Configuration key not found. Key: algorithm-id - Using default value: BasicTemplateFrameworkAlgorithm
+2020-10-16T08:49:52.7030260Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2020-10-16T08:49:52.7032580Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2020-10-16T08:49:52.7034820Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2020-10-16T08:49:52.7087150Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2020-10-16T08:49:52.7347700Z TRACE:: Config.Get(): Configuration key not found. Key: object-store-root - Using default value: ./storage
+2020-10-16T08:49:52.7381080Z TRACE:: Config.GetValue(): ignore-version-checks - Using default value: False
+2020-10-16T08:49:52.7393790Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2020-10-16T08:49:52.7414590Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2020-10-16T08:49:53.1728510Z TRACE:: PythonInitializer.Initialize(): start...
+2020-10-16T08:49:54.8545640Z TRACE:: PythonInitializer.Initialize(): ended
+2020-10-16T08:49:54.8605680Z TRACE:: AlgorithmPythonWrapper(): Python version 3.6.8 |Anaconda, Inc.| (default, Dec 30 2018, 01:25:33) 
+[GCC 7.3.0]: Importing python module BasicTemplateFrameworkAlgorithm
+2020-10-16T08:49:56.0620650Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2020-10-16T08:49:57.4070750Z TRACE:: Config.GetValue(): mute-python-library-logging - Using default value: True
+2020-10-16T08:49:57.4833450Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Lean/Launcher/bin/Debug/storage/QCAlgorithm
+2020-10-16T08:49:57.4964170Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2020-10-16T08:49:57.6365400Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Symbol      Quantity    Conversion = Value in USD
+USD: $      100000.00 @       1.00 = $100000.0
+-------------------------------------------------
+CashBook Total Value:                $100000.0
+
+2020-10-16T08:49:57.6397230Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2020-10-16T08:49:57.6413020Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2020-10-16T08:49:57.6427950Z TRACE:: JOB HANDLERS: 
+2020-10-16T08:49:57.6430110Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2020-10-16T08:49:57.6432490Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2020-10-16T08:49:57.6435030Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2020-10-16T08:49:57.6437510Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2020-10-16T08:49:57.6440040Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2020-10-16T08:49:57.6442820Z TRACE::          Alpha:        QuantConnect.Lean.Engine.Alphas.DefaultAlphaHandler
+2020-10-16T08:49:57.6445030Z TRACE::          ObjectStore:  QuantConnect.Lean.Engine.Storage.LocalObjectStore
+2020-10-16T08:49:57.6447490Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2020-10-16T08:49:57.6660970Z TRACE:: Debug: Launching analysis for BasicTemplateFrameworkAlgorithm with LEAN Engine v2.4.0.0
+2020-10-16T08:49:57.6687300Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 10/7/2013 12:00:00 AM Stop: 10/11/2013 11:59:59 PM
+2020-10-16T08:49:57.7107690Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 12
+2020-10-16T08:49:57.7111000Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2020-10-16T08:49:57.7113530Z TRACE:: Config.Get(): Configuration key not found. Key: data-feed-queue-type - Using default value: QuantConnect.Lean.Engine.DataFeeds.WorkScheduling.WorkQueue, QuantConnect.Lean.Engine
+2020-10-16T08:49:57.7117160Z TRACE:: WeightedWorkScheduler(): will use 12 workers and MaxWorkWeight is 400. Queue type: WorkQueue
+2020-10-16T08:49:57.7471450Z TRACE:: Config.GetValue(): show-missing-data-logs - Using default value: False
+2020-10-16T08:49:57.8312180Z TRACE:: UniverseSelection.AddPendingInternalDataFeeds(): Adding internal benchmark data feed SPY,SPY,Hour,TradeBar,Trade,Adjusted,Internal
+2020-10-16T08:49:58.0672300Z TRACE:: Debug: numpy test >>> print numpy.pi: 3.141592653589793
+2020-10-16T08:49:58.1189700Z TRACE:: Debug: Purchased Stock: SPY
+2020-10-16T08:49:58.1815940Z TRACE:: Synchronizer.GetEnumerator(): Exited thread.
+2020-10-16T08:49:58.1820320Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2020-10-16T08:49:58.1839600Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2020-10-16T08:49:58.2618080Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2020-10-16T08:49:58.2661790Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2020-10-16T08:49:58.2666210Z TRACE:: DefaultAlphaHandler.Exit(): Exiting...
+2020-10-16T08:49:58.2695240Z TRACE:: Debug: Algorithm Id:(BasicTemplateFrameworkAlgorithm) completed in 0.62 seconds at 6k data points per second. Processing total of 3,943 data points.
+2020-10-16T08:49:58.3041980Z TRACE:: DefaultAlphaHandler.Exit(): Ended
+2020-10-16T08:49:58.3048110Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2020-10-16T08:49:58.3054570Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2020-10-16T08:49:58.3121900Z TRACE:: StopSafely(): waiting for 'Result Thread' thread to stop...
+2020-10-16T08:49:58.3199360Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/BasicTemplateFrameworkAlgorithm-log.txt
+2020-10-16T08:49:58.3202220Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2020-10-16T08:49:58.4537150Z TRACE:: 
+STATISTICS:: Total Trades 3
+STATISTICS:: Average Win 0%
+STATISTICS:: Average Loss -1.01%
+STATISTICS:: Compounding Annual Return 254.782%
+STATISTICS:: Drawdown 2.200%
+STATISTICS:: Expectancy -1
+STATISTICS:: Net Profit 1.632%
+STATISTICS:: Sharpe Ratio 8.371
+STATISTICS:: Probabilistic Sharpe Ratio 66.555%
+STATISTICS:: Loss Rate 100%
+STATISTICS:: Win Rate 0%
+STATISTICS:: Profit-Loss Ratio 0
+STATISTICS:: Alpha -0.088
+STATISTICS:: Beta 1.006
+STATISTICS:: Annual Standard Deviation 0.221
+STATISTICS:: Annual Variance 0.049
+STATISTICS:: Information Ratio -32.586
+STATISTICS:: Tracking Error 0.002
+STATISTICS:: Treynor Ratio 1.839
+STATISTICS:: Total Fees $9.77
+STATISTICS:: Fitness Score 0.747
+STATISTICS:: Kelly Criterion Estimate 38.64
+STATISTICS:: Kelly Criterion Probability Value 0.229
+STATISTICS:: Sortino Ratio 79228162514264337593543950335
+STATISTICS:: Return Over Maximum Drawdown 85.209
+STATISTICS:: Portfolio Turnover 0.747
+STATISTICS:: Total Insights Generated 100
+STATISTICS:: Total Insights Closed 99
+STATISTICS:: Total Insights Analysis Completed 99
+STATISTICS:: Long Insight Count 100
+STATISTICS:: Short Insight Count 0
+STATISTICS:: Long/Short Ratio 100%
+STATISTICS:: Estimated Monthly Alpha Value $126657.6305
+STATISTICS:: Total Accumulated Estimated Alpha Value $20405.9516
+STATISTICS:: Mean Population Estimated Insight Value $206.1207
+STATISTICS:: Mean Population Direction 54.5455%
+STATISTICS:: Mean Population Magnitude 54.5455%
+STATISTICS:: Rolling Averaged Population Direction 59.8056%
+STATISTICS:: Rolling Averaged Population Magnitude 59.8056%
+STATISTICS:: OrderListHash 951346025
+2020-10-16T08:49:58.4539890Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2020-10-16T08:49:58.4578300Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2020-10-16T08:49:58.4583680Z TRACE:: Engine.Run(): Disposing of setup handler...
+2020-10-16T08:49:58.4590290Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2020-10-16T08:49:58.4600080Z TRACE:: Engine.Main(): Packet removed from queue: BasicTemplateFrameworkAlgorithm
+2020-10-16T08:49:58.4605990Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2020-10-16T08:49:58.4616560Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.
+2020-10-16T08:55:21.3967850Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2020-10-16T08:55:21.3982670Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2020-10-16T08:55:21.3985380Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: /Data
+2020-10-16T08:55:21.3996240Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.4.0.0 Mode: DEBUG (64bit)
+2020-10-16T08:55:21.4015420Z TRACE:: Engine.Main(): Started 8:55 AM
+2020-10-16T08:55:21.4109180Z TRACE:: Config.GetValue(): job-project-id - Using default value: 0
+2020-10-16T08:55:21.4237980Z TRACE:: Config.GetValue(): regression-update-statistics - Using default value: False
+2020-10-16T08:55:21.4246550Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2020-10-16T08:55:21.4343910Z TRACE:: Config.Get(): Configuration key not found. Key: cloud-api-url - Using default value: https://www.quantconnect.com/api/v2/
+2020-10-16T08:55:21.8394310Z TRACE:: JobQueue.NextJob(): Selected ../../../Algorithm.Python/BasicTemplateFrameworkAlgorithm.py
+2020-10-16T08:55:21.8522470Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2020-10-16T08:55:21.8526880Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2020-10-16T08:55:21.8530370Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2020-10-16T08:55:21.8565530Z TRACE:: Config.Get(): Configuration key not found. Key: algorithm-id - Using default value: BasicTemplateFrameworkAlgorithm
+2020-10-16T08:55:21.8576940Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2020-10-16T08:55:21.8579350Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2020-10-16T08:55:21.8581550Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2020-10-16T08:55:21.8633740Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2020-10-16T08:55:21.8918760Z TRACE:: Config.Get(): Configuration key not found. Key: object-store-root - Using default value: ./storage
+2020-10-16T08:55:21.8943730Z TRACE:: Config.GetValue(): ignore-version-checks - Using default value: False
+2020-10-16T08:55:21.8958330Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2020-10-16T08:55:21.8985150Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2020-10-16T08:55:22.3438050Z TRACE:: PythonInitializer.Initialize(): start...
+2020-10-16T08:55:24.0243490Z TRACE:: PythonInitializer.Initialize(): ended
+2020-10-16T08:55:24.0292020Z TRACE:: AlgorithmPythonWrapper(): Python version 3.6.8 |Anaconda, Inc.| (default, Dec 30 2018, 01:25:33) 
+[GCC 7.3.0]: Importing python module BasicTemplateFrameworkAlgorithm
+2020-10-16T08:55:25.2101670Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2020-10-16T08:55:26.5299200Z TRACE:: Config.GetValue(): mute-python-library-logging - Using default value: True
+2020-10-16T08:55:26.6003900Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Lean/Launcher/bin/Debug/storage/QCAlgorithm
+2020-10-16T08:55:26.6137050Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2020-10-16T08:55:26.7534970Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Symbol      Quantity    Conversion = Value in USD
+USD: $      100000.00 @       1.00 = $100000.0
+-------------------------------------------------
+CashBook Total Value:                $100000.0
+
+2020-10-16T08:55:26.7563240Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2020-10-16T08:55:26.7578120Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2020-10-16T08:55:26.7592890Z TRACE:: JOB HANDLERS: 
+2020-10-16T08:55:26.7595110Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2020-10-16T08:55:26.7597190Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2020-10-16T08:55:26.7599430Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2020-10-16T08:55:26.7601830Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2020-10-16T08:55:26.7604070Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2020-10-16T08:55:26.7607010Z TRACE::          Alpha:        QuantConnect.Lean.Engine.Alphas.DefaultAlphaHandler
+2020-10-16T08:55:26.7609100Z TRACE::          ObjectStore:  QuantConnect.Lean.Engine.Storage.LocalObjectStore
+2020-10-16T08:55:26.7611180Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2020-10-16T08:55:26.7821420Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 10/7/2013 12:00:00 AM Stop: 10/11/2013 11:59:59 PM
+2020-10-16T08:55:26.8073670Z TRACE:: Debug: Launching analysis for BasicTemplateFrameworkAlgorithm with LEAN Engine v2.4.0.0
+2020-10-16T08:55:26.8258140Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 12
+2020-10-16T08:55:26.8262170Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2020-10-16T08:55:26.8264650Z TRACE:: Config.Get(): Configuration key not found. Key: data-feed-queue-type - Using default value: QuantConnect.Lean.Engine.DataFeeds.WorkScheduling.WorkQueue, QuantConnect.Lean.Engine
+2020-10-16T08:55:26.8267920Z TRACE:: WeightedWorkScheduler(): will use 12 workers and MaxWorkWeight is 400. Queue type: WorkQueue
+2020-10-16T08:55:26.8606770Z TRACE:: Config.GetValue(): show-missing-data-logs - Using default value: False
+2020-10-16T08:55:26.9420840Z TRACE:: UniverseSelection.AddPendingInternalDataFeeds(): Adding internal benchmark data feed SPY,SPY,Hour,TradeBar,Trade,Adjusted,Internal
+2020-10-16T08:55:27.1584530Z TRACE:: Debug: numpy test >>> print numpy.pi: 3.141592653589793
+2020-10-16T08:55:27.2088520Z TRACE:: Debug: Purchased Stock: SPY
+2020-10-16T08:55:27.2935220Z TRACE:: Synchronizer.GetEnumerator(): Exited thread.
+2020-10-16T08:55:27.2939150Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2020-10-16T08:55:27.2956120Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2020-10-16T08:55:27.3765220Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2020-10-16T08:55:27.3806250Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2020-10-16T08:55:27.3810620Z TRACE:: DefaultAlphaHandler.Exit(): Exiting...
+2020-10-16T08:55:27.4095720Z TRACE:: Debug: Algorithm Id:(BasicTemplateFrameworkAlgorithm) completed in 0.61 seconds at 6k data points per second. Processing total of 3,943 data points.
+2020-10-16T08:55:27.4195840Z TRACE:: DefaultAlphaHandler.Exit(): Ended
+2020-10-16T08:55:27.4202220Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2020-10-16T08:55:27.4208840Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2020-10-16T08:55:27.4276960Z TRACE:: StopSafely(): waiting for 'Result Thread' thread to stop...
+2020-10-16T08:55:27.4600230Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/BasicTemplateFrameworkAlgorithm-log.txt
+2020-10-16T08:55:27.4602930Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2020-10-16T08:55:27.5905980Z TRACE:: 
+STATISTICS:: Total Trades 3
+STATISTICS:: Average Win 0%
+STATISTICS:: Average Loss -1.01%
+STATISTICS:: Compounding Annual Return 254.782%
+STATISTICS:: Drawdown 2.200%
+STATISTICS:: Expectancy -1
+STATISTICS:: Net Profit 1.632%
+STATISTICS:: Sharpe Ratio 8.371
+STATISTICS:: Probabilistic Sharpe Ratio 66.555%
+STATISTICS:: Loss Rate 100%
+STATISTICS:: Win Rate 0%
+STATISTICS:: Profit-Loss Ratio 0
+STATISTICS:: Alpha -0.088
+STATISTICS:: Beta 1.006
+STATISTICS:: Annual Standard Deviation 0.221
+STATISTICS:: Annual Variance 0.049
+STATISTICS:: Information Ratio -32.586
+STATISTICS:: Tracking Error 0.002
+STATISTICS:: Treynor Ratio 1.839
+STATISTICS:: Total Fees $9.77
+STATISTICS:: Fitness Score 0.747
+STATISTICS:: Kelly Criterion Estimate 38.64
+STATISTICS:: Kelly Criterion Probability Value 0.229
+STATISTICS:: Sortino Ratio 79228162514264337593543950335
+STATISTICS:: Return Over Maximum Drawdown 85.209
+STATISTICS:: Portfolio Turnover 0.747
+STATISTICS:: Total Insights Generated 100
+STATISTICS:: Total Insights Closed 99
+STATISTICS:: Total Insights Analysis Completed 99
+STATISTICS:: Long Insight Count 100
+STATISTICS:: Short Insight Count 0
+STATISTICS:: Long/Short Ratio 100%
+STATISTICS:: Estimated Monthly Alpha Value $126657.6305
+STATISTICS:: Total Accumulated Estimated Alpha Value $20405.9516
+STATISTICS:: Mean Population Estimated Insight Value $206.1207
+STATISTICS:: Mean Population Direction 54.5455%
+STATISTICS:: Mean Population Magnitude 54.5455%
+STATISTICS:: Rolling Averaged Population Direction 59.8056%
+STATISTICS:: Rolling Averaged Population Magnitude 59.8056%
+STATISTICS:: OrderListHash 951346025
+2020-10-16T08:55:27.5909720Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2020-10-16T08:55:27.5916480Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2020-10-16T08:55:27.5919840Z TRACE:: Engine.Run(): Disposing of setup handler...
+2020-10-16T08:55:27.5924810Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2020-10-16T08:55:27.5933650Z TRACE:: Engine.Main(): Packet removed from queue: BasicTemplateFrameworkAlgorithm
+2020-10-16T08:55:27.5939620Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2020-10-16T08:55:27.5950720Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.
